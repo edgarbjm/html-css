@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1{
+            box-shadow: 2px 1px 14px 6px rgba(0, 0, 0, 0.459);
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 7px;
+        }
+
+        article{
+            background-color: lightgray;
+        }
+
+        article > aside{
+            background-color: rgb(100, 100, 100);
+            padding: 5px;
+        }
+        
+        nav{
+            background-color: rgb(43, 42, 42);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.5);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        footer{
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0;
+        }
+
+        footer > a{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="assunto">
+            <p>Esportes Games Tecnologia</p>
+        </section>
+
+        <section id="noticias"> 
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque similique tempore aliquam mollitia eaque, modi itaque quisquam perspiciatis architecto maiores odio, nihil, nam alias enim! Pariatur veniam quod at quoasda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem doloremque molestias officiis magnam! Mollitia adipisci accusamus tempora, ullam voluptates, hic quasi corrupti ad, voluptatem ut sunt sint deleniti temporibus? Possimus?</p>
+                <aside>
+                    <p>Artigo escrito por Edgar Borges</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+
+    <footer>
+        Desenvolvido pelo Edgar
+    </footer>    
+    
+</body>
+</html>
