@@ -3,3 +3,5 @@
 
 Estou aprendendo a criar sites
 !
+
+<a href="https://edgarbjm.github.io/html-css/exercicios/ex001/index.html"> Executar o exercicio 001 </a>
